@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>当前计数：{{ counter }}</h1>
+    <h2>当前计数：{{ counter }}</h2>
     <button @click="increment">+1</button>
   </div>
 </template>

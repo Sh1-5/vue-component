@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1 id="title" ref="title">Hello Vue</h1>
+    <h2 id="title" ref="title">Hello Vue</h2>
     <button @click="btnClick">获取h1元素</button>
     <button @click="getCpn">获取Home组件</button>
     <hr />

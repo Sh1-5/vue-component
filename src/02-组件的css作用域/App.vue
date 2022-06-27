@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>App</h1>
+    <h2>App</h2>
     <About />
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h2 {
   color: red;
 }
 </style>

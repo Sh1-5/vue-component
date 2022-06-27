@@ -1,6 +1,6 @@
 <template>
   <div class="category">
-    <h1>Category</h1>
+    <h2>Category</h2>
   </div>
 </template>
 

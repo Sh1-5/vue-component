@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <h2>Home</h2>
     <button @click="getParent">获取parent</button>
     <button @click="getRoot">获取root</button>
   </div>

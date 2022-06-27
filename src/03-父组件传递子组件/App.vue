@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <ShowMessage class="message" message="Hello Vue" :info="info" />
-    <MultiRootElement id="multi-root-element" />
+    <MultiRootElement id="multi-root-element" name />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <h1>Banner</h1>
+    <h2>Banner</h2>
     <ul>
       <li>商品信息1</li>
       <li>商品信息2</li>

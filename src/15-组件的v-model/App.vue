@@ -1,24 +1,30 @@
 <template>
   <div class="app">
-    <Home v-model="info" />
+    <MyInput v-model="value" />
+    <MyInput :modelValue="value" @update:modelValue="updateValue" />
+    <button @click="handleClick">查看value</button>
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import MyInput from './components/MyInput.vue'
 
 export default {
   data() {
     return {
-      info: {
-        name: 'kobe',
-        age: 18,
-        height: 1.8
-      }
+      value: ''
     }
   },
   components: {
-    Home
+    MyInput
+  },
+  methods: {
+    handleClick() {
+      console.log(this.value)
+    },
+    updateValue(value) {
+      this.value = value
+    }
   }
 }
 </script>

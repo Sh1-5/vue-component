@@ -1,6 +1,6 @@
 <template>
   <div class="async-about">
-    <h1>AsyncAbout</h1>
+    <h2>AsyncAbout</h2>
   </div>
 </template>
 

@@ -22,8 +22,8 @@ import Category from './components/Category.vue'
 export default {
   data() {
     return {
-      tabs: ['home', 'about', 'category'],
-      currentTab: 'home'
+      tabs: ['Home', 'About', 'Category'],
+      currentTab: 'Home'
     }
   },
   components: {

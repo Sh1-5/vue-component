@@ -1,8 +1,8 @@
 <template>
   <div class="my-slot-cpn">
-    <h1>组件开始</h1>
+    <h2>组件开始</h2>
     <slot>默认内容</slot>
-    <h1>组件结束</h1>
+    <h2>组件结束</h2>
   </div>
 </template>
 

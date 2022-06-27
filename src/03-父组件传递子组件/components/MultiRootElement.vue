@@ -5,7 +5,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    name: String
+  },
+  mounted() {
+    console.log(this.name)
+  }
+}
 </script>
 
 <style scoped></style>

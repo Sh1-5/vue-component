@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <TabControl :titles="titles" @titleClick="titleClick" />
-    <h1>{{ contents[currentIndex] }}</h1>
+    <h2>{{ contents[currentIndex] }}</h2>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>当前计数: {{ counter }}</h1>
+    <h2>当前计数: {{ counter }}</h2>
     <CounterOperation
       @increment="increment"
       @decrement="decrement"
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CounterOperation from './compoents/CounterOperation.vue'
+import CounterOperation from './components/CounterOperation.vue'
 
 export default {
   data() {

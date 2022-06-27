@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>App</h1>
+    <h2>App</h2>
     <Header />
     <Main />
     <Footer />
@@ -13,7 +13,6 @@ import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 
 export default {
-  name: 'App',
   components: {
     Header,
     Main,
